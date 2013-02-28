@@ -1,30 +1,22 @@
-![status](https://secure.travis-ci.org/wearefractal/APPNAME.png?branch=master)
-
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>factorial</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>NOTHING HERE YET</td>
-</tr>
-<tr>
-<td>Node Version</td>
-<td>>= 0.4</td>
+<td>returns the factorial of a number</td>
 </tr>
 </table>
 
 ## Usage
 
-```coffee-script
-NOTHING HERE YET
+```javascript
+factorial(10) // 3628800
+factorial(0) // 1
+factorial(21) // 51090942171709440000
 ```
-
-## Examples
-
-You can view more examples in the [example folder.](https://github.com/wearefractal/APPNAME/tree/master/examples)
 
 ## LICENSE
 

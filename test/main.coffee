@@ -1,10 +1,16 @@
-APPNAME = require '../'
+factorial = require '../'
 should = require 'should'
 require 'mocha'
 
-describe 'APPNAME', ->
-  describe 'FUNCTIONNAME()', ->
-    it 'should TASKNAME', (done) ->
-      should.exist true
-      true.should.equal.true
-      done()
+describe 'factorial', ->
+  it 'should work with 0', (done) ->
+    factorial(0).should.equal 1
+    done()
+
+  it 'should work with 10', (done) ->
+    factorial(10).should.equal 3628800
+    done()
+
+  it 'should work with 21', (done) ->
+    factorial(21).should.equal 51090942171709440000
+    done()
