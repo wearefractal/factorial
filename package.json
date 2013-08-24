@@ -6,11 +6,9 @@
    "repository":"git://github.com/wearefractal/factorial.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
    "main":"./index.js",
-   
-   "dependencies":{
-      "coffee-script":"*"
-   },
+
    "devDependencies":{
+      "coffee-script": "*",
       "mocha":"*",
       "should":"*"
    },
