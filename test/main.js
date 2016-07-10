@@ -3,6 +3,15 @@ var should = require('should');
 require('mocha');
 
 describe('factorial', function() {
+  it('should error with -1', function(done) {
+    try {
+      factorial(-1);
+    } catch (err) {
+      should.exist(err);
+      return done();
+    }
+    done(new Error('Not thrown!'));
+  });
   it('should work with 0', function(done) {
     factorial(0).should.equal(1);
     done();
