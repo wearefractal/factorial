@@ -1,7 +1,7 @@
 {
    "name": "factorial",
    "description": "returns the factorial of a number",
-   "version": "0.0.4",
+   "version": "1.0.0",
    "homepage": "http://github.com/wearefractal/factorial",
    "repository": "git://github.com/wearefractal/factorial.git",
    "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
