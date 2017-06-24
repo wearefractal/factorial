@@ -1,26 +1,25 @@
 {
-   "name":"factorial",
-   "description":"returns the factorial of a number",
-   "version":"0.0.3",
-   "homepage":"http://github.com/wearefractal/factorial",
-   "repository":"git://github.com/wearefractal/factorial.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./index.js",
-
-   "devDependencies":{
-      "mocha":"*",
-      "should":"*"
+   "name": "factorial",
+   "description": "returns the factorial of a number",
+   "version": "0.0.3",
+   "homepage": "http://github.com/wearefractal/factorial",
+   "repository": "git://github.com/wearefractal/factorial.git",
+   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "main": "./index.js",
+   "devDependencies": {
+      "mocha": "*",
+      "should": "*"
    },
-   "scripts":{
-      "test":"mocha"
+   "scripts": {
+      "test": "mocha"
    },
-   "engines":{
-      "node":">= 0.4.0"
+   "engines": {
+      "node": ">= 0.4.0"
    },
-   "licenses":[
+   "licenses": [
       {
-         "type":"MIT",
-         "url":"http://github.com/wearefractal/factorial/raw/master/LICENSE"
+         "type": "MIT",
+         "url": "http://github.com/wearefractal/factorial/raw/master/LICENSE"
       }
    ]
 }
