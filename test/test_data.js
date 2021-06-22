@@ -98,6 +98,7 @@ module.exports = {
 	'-3': BigInt('-6'),
 	'-2': BigInt('-2'),
 	'-1': BigInt('-1'),
+	'0': BigInt('1'),
 	'1': BigInt('1'),
 	'2': BigInt('2'),
 	'3': BigInt('6'),

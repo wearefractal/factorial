@@ -14,9 +14,15 @@
 
 ```javascript
 factorial(10) // 3628800
+factorial(-10) // -3628800
 factorial(0) // 1
-factorial(21) // 51090942171709440000
+factorial(21, {useBigInt: true}) // 51090942171709440000n
 ```
+
+### Factorials greater than 18!
+When calculating factorials for numbers greater than 18 (or less than -18), you should set the second argument to an object with `useBigInt` set to true. This is because the result will start to exceed Javascript's [`MAX_SAFE_INTEGER`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER) value.
+
+It is safe to set `useBigInt` for all values, even 18 and below, just make sure you handle the output appropriately as `BigInt` is not completely compatible with normal `Int`s.
 
 ## LICENSE
 
