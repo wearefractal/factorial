@@ -5,3 +5,4 @@ build
 *.node
 coverage
 package-lock.json
+yarn.lock

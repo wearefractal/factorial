@@ -1,5 +1,7 @@
 module.exports = function factorial(n, opt={}) {
-  function bigInt(i) {return opt.useBigInt ? BigInt(i) : i}
+  function bigInt(i) {
+    return opt.useBigInt ? BigInt(i) : i
+  }
 
   var sign = bigInt(Math.sign(n))
   n = bigInt(Math.abs(n))
