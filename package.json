@@ -6,12 +6,8 @@
    "repository": "git://github.com/wearefractal/factorial.git",
    "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
    "main": "./index.js",
-   "devDependencies": {
-      "mocha": "*",
-      "should": "*"
-   },
    "scripts": {
-      "test": "mocha"
+      "test": "jest --coverage"
    },
    "engines": {
       "node": ">= 0.4.0"
@@ -21,5 +17,8 @@
          "type": "MIT",
          "url": "http://github.com/wearefractal/factorial/raw/master/LICENSE"
       }
-   ]
+   ],
+   "devDependencies": {
+      "jest": "^27.0.5"
+   }
 }
